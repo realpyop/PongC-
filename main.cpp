@@ -6,6 +6,31 @@ using namespace std;
 int player_score = 0;
 int cpu_score = 0;
 
+// TIMER
+typedef struct Timer
+{
+  float Lifetime;
+};
+
+void StartTimer(Timer* timer, float lifetime) {
+  if(timer != nullptr) {
+    timer->Lifetime = lifetime;
+  }
+}
+
+void UpdateTimer(Timer* timer) {
+  if(timer != nullptr && timer->Lifetime > 0) {
+    timer->Lifetime = timer->Lifetime - GetFrameTime();
+  }
+}
+
+bool TimerDone(Timer* timer) {
+  if(timer != nullptr) {
+    return timer->Lifetime <= 0;
+  }
+}
+
+
 class Ball {
   public:
     float pos_x;
