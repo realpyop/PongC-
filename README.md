@@ -9,4 +9,4 @@ In my attempted to deepen my C++ knowledge and one step forward to my Game Devel
 * Creating simple computer AI
 * Working with C++ 
 
-Visual Helper (Diagram/Video) 
+## Visual Video
