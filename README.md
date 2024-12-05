@@ -14,7 +14,7 @@ In my attempted to deepen my C++ knowledge and one step forward to my Game Devel
 ![Kapture 2024-12-05 at 15 13 50](https://github.com/user-attachments/assets/7704c6cf-b95c-4aae-ba17-f4ff3e60a2d5)
 
 
-##Try it out yourself!
+## Try it out yourself!
 1. Clone the repository
 2. Open terminal
 3. Run `make`
